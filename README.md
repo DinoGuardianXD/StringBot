@@ -5,11 +5,11 @@
 - ⚠️ Note : Dont Try To Missuse This Bot.
 
 ------------
-<h3> Dєρℓογ το нєяοκυ </h3>
+<h3> 𝙳𝚎𝚙𝚕𝚘𝚢 𝚝𝚘 𝙷𝚎𝚛𝚔𝚞 </h3>
 
-- FORK THIS REPO
+- Fork This Repo 
 
-- THEN CLICK BELOW BUTTON 
+- Then Click Below Button
 
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
