@@ -1,1 +1,1 @@
-Legendbot
+GuardianBot
