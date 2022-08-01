@@ -23,7 +23,7 @@ from telethon.errors import (
 )
 
 ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nPlease forward this to @LegendBot_OP if this message doesn't contain any " \
+            "\n\nPlease forward this to @GuardianSupport_XD if this message doesn't contain any " \
             "sensitive information and for your information : **These kinda error logs are not stored in our database!**"
 
 
@@ -53,7 +53,7 @@ async def generate_session(bot, msg, telethon=False):
     if await cancelled(api_id_msg):
         return
     api_hash = api_hash_msg.text
-    phone_number_msg = await bot.ask(user_id, 'Now please send your `PHONE_NUMBER` along with the country code. \nExample : `+917936482542`', filters=filters.text)
+    phone_number_msg = await bot.ask(user_id, 'Now please send your `PHONE_NUMBER` along with the country code. \nExample : `+9193709*****`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     phone_number = phone_number_msg.text
@@ -117,15 +117,15 @@ async def generate_session(bot, msg, telethon=False):
         except KeyError:
             pass
         try:
-            await client(JoinChannelRequest("@LegendBot_AI"))
+            await client(JoinChannelRequest("@GuardianCommunity"))
         except BaseException:
             pass
         try:
-            await client(LeaveChannelRequest("@Legend_Userbot"))
+            await client(LeaveChannelRequest("@GuardianBot_Support"))
         except BaseException:
             pass
         try:
-            await client(LeaveChannelRequest("@Official_LegendBot"))
+            await client(LeaveChannelRequest("@GuardianBot _AI"))
         except BaseException:
             pass
     else:
